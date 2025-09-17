@@ -9,7 +9,9 @@
 name: Java CI with Maven
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
+  repository-projects: write
   id-token: write
   actions: read
   security-events: write
