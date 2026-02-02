@@ -11,6 +11,7 @@ public class Main {
         Persoana persoana1 = (Persoana) context.getBean("p1");
 
         System.out.println("Printing person: ");
+	System.out.println("Printing person: ");
         System.out.println(persoana);
         System.out.println("Printing second person: ");
         System.out.println(persoana1);
